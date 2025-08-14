@@ -89,7 +89,7 @@ def main():
         elif "wikipedia" in command:
             query = command.replace("wikipedia", "").strip()
             wikipedia_search(query)
-        elif "exit" in command or "bye" in command:
+        elif "exit" in command or "quit" in command:
             speak("Goodbye!")
             break
         elif command:
@@ -97,3 +97,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
